@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterPoly", "InterPoly\Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingList", "SortingList\SortingList.csproj", "{EBD76A38-31B0-4F26-84B1-F874982AEEFD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaCatalog", "MediaCatalog\MediaCatalog.csproj", "{51C4E34B-018A-4394-A200-30125952197C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{EBD76A38-31B0-4F26-84B1-F874982AEEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD76A38-31B0-4F26-84B1-F874982AEEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD76A38-31B0-4F26-84B1-F874982AEEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C4E34B-018A-4394-A200-30125952197C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C4E34B-018A-4394-A200-30125952197C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C4E34B-018A-4394-A200-30125952197C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C4E34B-018A-4394-A200-30125952197C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
