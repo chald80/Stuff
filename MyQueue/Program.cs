@@ -12,10 +12,6 @@ namespace MyQueue
             Q.Enqueue(2);
             Q.Enqueue(3);
 
-            foreach(var i in Q)
-            {
-
-            }
 
 
 
