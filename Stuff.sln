@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingList", "SortingList\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaCatalog", "MediaCatalog\MediaCatalog.csproj", "{51C4E34B-018A-4394-A200-30125952197C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArticleApp", "ArticleApp\ArticleApp\ArticleApp.csproj", "{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{51C4E34B-018A-4394-A200-30125952197C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C4E34B-018A-4394-A200-30125952197C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C4E34B-018A-4394-A200-30125952197C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
