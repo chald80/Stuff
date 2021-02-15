@@ -8,15 +8,16 @@ namespace ExceptionsStack
     {
         private int[] stack;
         private int top = 0;
-        private int size;
+        private int _size;
         public MyStack(int size)
         {
             stack = new int[size];
+            _size = size;
         }
 
         public void Push(int element)
         {
-            if (top > size -1)
+            if (top > _size -1)
             {
                 throw new MyStackIsFullException("this is Full");
             }

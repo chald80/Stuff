@@ -14,12 +14,12 @@ namespace ExceptionsStack
 
             try
             {
-                stk.Push(1);
-                stk.Push(2);
-                stk.Push(3);
-                stk.Push(4);
-                stk.Push(5);
-                stk.Push(6);
+               stk.Push(1);
+               stk.Push(2);
+               stk.Push(3);
+                //stk.Push(4);
+                //stk.Push(5);
+                //stk.Push(6);
 
             }
             catch (MyStackIsFullException e)
@@ -34,6 +34,9 @@ namespace ExceptionsStack
 
             try
             {
+                stk.Pop();
+                stk.Pop();
+                stk.Pop();
                 stk.Pop();
             }
             catch (MyStackIsEmptyException e)
