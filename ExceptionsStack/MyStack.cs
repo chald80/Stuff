@@ -16,14 +16,20 @@ namespace ExceptionsStack
 
         public void Push(int element)
         {
-            if (top > 5) throw new MyStackIsFullException("this is Full");
+            if (top > size -1)
+            {
+                throw new MyStackIsFullException("this is Full");
+            }
             top++;
-            //stack[top] = element;
+            
         }
 
         public int Pop()
         {
-            if (top == 0) throw new MyStackIsEmptyException("this stack is emptyytyututyuy");
+            if (top == 0)
+            {
+                throw new MyStackIsEmptyException("this stack is emptyytyututyuy");
+            }
             return stack[top];
         }
 
