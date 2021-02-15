@@ -8,7 +8,7 @@ namespace ExceptionsStack
     {
         private int[] stack;
         private int top = 0;
-
+        private int size;
         public MyStack(int size)
         {
             stack = new int[size];
@@ -30,6 +30,7 @@ namespace ExceptionsStack
             {
                 throw new MyStackIsEmptyException("this stack is emptyytyututyuy");
             }
+            --top;
             return stack[top];
         }
 
