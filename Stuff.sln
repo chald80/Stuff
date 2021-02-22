@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "Lambda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsAsParameters", "FunctionsAsParameters\FunctionsAsParameters.csproj", "{36D4FA31-1C18-47B0-A0BA-2E609DE75207}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLambdaPredicateDelegatesFunctions", "CarLambdaPredicateDelegatesFunctions\CarLambdaPredicateDelegatesFunctions.csproj", "{95DDF106-478F-4548-8647-EB0C19926963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{36D4FA31-1C18-47B0-A0BA-2E609DE75207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D4FA31-1C18-47B0-A0BA-2E609DE75207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D4FA31-1C18-47B0-A0BA-2E609DE75207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DDF106-478F-4548-8647-EB0C19926963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DDF106-478F-4548-8647-EB0C19926963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DDF106-478F-4548-8647-EB0C19926963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DDF106-478F-4548-8647-EB0C19926963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

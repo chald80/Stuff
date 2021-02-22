@@ -16,7 +16,7 @@ namespace FunctionsAsParameters
             carsDict.Add("CJ 32 802", new Car("BMW", "CJ 32 802", 1000));
             carsDict.Add("CJ 32 803", new Car("Audi", "CJ 32 803", 2000));
             carsDict.Add("CJ 32 804", new Car("Porsche", "CJ 32 804", 3000));
-
+            
             Console.WriteLine("It is easy and quick to find a car object in a dictionary, because dictionary uses keys");
             string licensPlate = "CJ 32 802";
 
@@ -78,10 +78,10 @@ namespace FunctionsAsParameters
         {
             return aCar.Price == price;
         }
-
+        
     }
 
-
+   
 
     public class Car
     {
