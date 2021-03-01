@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Repetitionsopgaver1
 {
-    class Code
+    /*class Code
     {
         public int Cash = 12;
         public double Price = 11.95;
@@ -23,8 +23,8 @@ namespace Repetitionsopgaver1
         }
         public override string ToString()
         {
-            return $"TimeStamp: {0}", canBuy;
+            return $"TimeStamp: {0}"; canBuy;
         }
 
-    }
+    }*/
 }
