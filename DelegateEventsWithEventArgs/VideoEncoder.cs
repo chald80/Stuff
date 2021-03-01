@@ -31,7 +31,7 @@ namespace DelegateEventsWithEventArgs
         {
             if (VideoEncoded != null)
             {
-                VideoEncoded(this, new VideoEventArgs() {Video = video, ID = 999});
+                VideoEncoded(this, new VideoEventArgs() {Video = video});
             }
 
             ////this does the same as above
