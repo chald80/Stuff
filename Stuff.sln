@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingList", "SortingList\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArticleApp", "ArticleApp\ArticleApp\ArticleApp.csproj", "{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQueue", "MyQueue\MyQueue.csproj", "{C3427E5E-0047-48BC-A5D7-03FB8C464541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyQueue", "MyQueue\MyQueue.csproj", "{C3427E5E-0047-48BC-A5D7-03FB8C464541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{DE72EB25-13CA-4D45-B5AC-279457BB36BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{DE72EB25-13CA-4D45-B5AC-279457BB36BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InClass_LINQ", "InClass_LINQ\InClass_LINQ\InClass_LINQ.csproj", "{257AA01E-C57F-4B3A-A433-C25C4A87C7AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257AA01E-C57F-4B3A-A433-C25C4A87C7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257AA01E-C57F-4B3A-A433-C25C4A87C7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257AA01E-C57F-4B3A-A433-C25C4A87C7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257AA01E-C57F-4B3A-A433-C25C4A87C7AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
