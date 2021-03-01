@@ -26,7 +26,7 @@ namespace LINQDrink
             #endregion
 
             var alldrinks = from d in drinks
-                select d;
+                            select d;
             foreach (var d in alldrinks)
             {
                 Console.WriteLine($"{d.Name}");
@@ -36,8 +36,8 @@ namespace LINQDrink
             Console.WriteLine();
 
             var withoutalcohol = from d in drinks
-                where d.AlcoholicPartAmount == 0
-                select d;
+                                 where d.AlcoholicPartAmount == 0
+                                 select d;
             foreach (var d in withoutalcohol)
             {
                 Console.WriteLine($"{d.Name}");
@@ -46,8 +46,8 @@ namespace LINQDrink
             Console.WriteLine();
 
             var withalcohol = from d in drinks
-                where d.AlcoholicPartAmount > 0
-                select new {d.Name, d.AlcoholicPart, d.AlcoholicPartAmount};
+                              where d.AlcoholicPartAmount > 0
+                              select new { d.Name, d.AlcoholicPart, d.AlcoholicPartAmount };
             foreach (var d in withalcohol)
             {
                 Console.WriteLine($"{d.Name}  {d.AlcoholicPart}  {d.AlcoholicPartAmount}");
@@ -56,18 +56,18 @@ namespace LINQDrink
             Console.WriteLine();
 
             var order = from d in drinks
-                orderby d.Name
-                select new {d.Name};
+                        orderby d.Name
+                        select new { d.Name };
             foreach (var d in order)
             {
-                Console.WriteLine($"{d.Name}");   
+                Console.WriteLine($"{d.Name}");
             }
 
 
             Console.WriteLine();
 
             var total = from d in drinks
-                select d.AlcoholicPartAmount;
+                        select d.AlcoholicPartAmount;
             double Total = total.Sum();
             Console.WriteLine($"{Total}");
 
@@ -75,7 +75,7 @@ namespace LINQDrink
 
 
             var avaerage = from d in drinks
-                select d.AlcoholicPartAmount;
+                           select d.AlcoholicPartAmount;
             double Avaerage = avaerage.Average();
             Console.WriteLine($"{Avaerage}");
 
