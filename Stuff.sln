@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLambdaPredicateDelegates
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQDrink", "LINQDrink\LINQDrink.csproj", "{7744C641-7572-4B40-A239-FB6F1C3D143C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InClass_LINQ", "InClass_LINQ\InClass_LINQ\InClass_LINQ.csproj", "{5C429C6F-4C56-4E3D-BD4B-215AD1AB35A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{7744C641-7572-4B40-A239-FB6F1C3D143C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7744C641-7572-4B40-A239-FB6F1C3D143C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7744C641-7572-4B40-A239-FB6F1C3D143C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C429C6F-4C56-4E3D-BD4B-215AD1AB35A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C429C6F-4C56-4E3D-BD4B-215AD1AB35A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C429C6F-4C56-4E3D-BD4B-215AD1AB35A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C429C6F-4C56-4E3D-BD4B-215AD1AB35A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
