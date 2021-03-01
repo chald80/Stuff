@@ -98,7 +98,7 @@ public class StaticQueueinjava
 {
 
 	// Driver code 
-	public static void Main(String[] args)
+	public static void Main(System.String[] args)
 	{
 		// Create a queue of capacity 4 
 		Queue q = new Queue(4);
