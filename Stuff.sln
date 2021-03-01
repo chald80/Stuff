@@ -33,8 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingList", "SortingList\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArticleApp", "ArticleApp\ArticleApp\ArticleApp.csproj", "{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyQueue", "MyQueue\MyQueue.csproj", "{C3427E5E-0047-48BC-A5D7-03FB8C464541}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{DE72EB25-13CA-4D45-B5AC-279457BB36BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualsGetHashCodeToString", "EqualsGetHashCodeToString\EqualsGetHashCodeToString.csproj", "{15F9FD2E-8BE2-4FCC-941C-15C9619455B6}"
@@ -121,10 +119,6 @@ Global
 		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90A437A-AE6A-402A-BA12-9D9A9DD4ACB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3427E5E-0047-48BC-A5D7-03FB8C464541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3427E5E-0047-48BC-A5D7-03FB8C464541}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3427E5E-0047-48BC-A5D7-03FB8C464541}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3427E5E-0047-48BC-A5D7-03FB8C464541}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE72EB25-13CA-4D45-B5AC-279457BB36BA}.Release|Any CPU.ActiveCfg = Release|Any CPU

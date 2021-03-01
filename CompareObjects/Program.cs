@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
-using Zoo;
+//using Zoo;
 
 namespace CompareObjects
 {
